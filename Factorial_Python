@@ -1,0 +1,7 @@
+# find the factorial of
+name = input("Your name please: ")
+num = int(input("Enter the number you want factorial of: "))
+result = 1
+for i in range(result, num + 1):
+    result = result * i
+print(f"Hey {name}, the factorial of {num} is {result}. Thank You for using my app.")
